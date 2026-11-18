@@ -1,0 +1,26 @@
+ewma_alpha: 0.02
+warmup_samples: 120
+z_watch: 2.0
+z_act: 3.5
+debounce:
+  continuous: 5
+  interval: 1
+  daily: 1
+  on_demand: 1
+  manual: 1
+help:
+  window_s: 3600
+  min_alerts: 3
+  min_metrics: 2
+  min_gap_s: 300
+  recovery_s: 1800
+level_normal: 75
+level_watch: 50
+equipment_seconds: 30
+system_weights:
+  cardio: 1
+  respiratory: 1
+  neuro_psych: 1
+  metabolic: 1
+  immune: 1
+  radiation: 1

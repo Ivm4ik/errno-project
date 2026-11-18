@@ -1,0 +1,21 @@
+# TODO: mentor formula was not preserved. Working assumption:
+# D = |V - B|; P = 0 when D <= Tolerance_Delta, else P = Weight_k * (D - Tolerance_Delta).
+# Sleep/mental rules also set Penalty_Condition (low/high) on each Rule.
+formula: "D=|V-B|; P=0 if D<=delta else k*(D-delta)"
+quality_floor: 0.2
+equipment_seconds: 30
+exercise_zero: [HR, RR, LAC]
+# Legacy physical one-sided gates (mental sheet uses Rule.condition instead).
+one_sided_low: [SPO2]
+one_sided_high: [EEG, RAD, CO2]
+rare: [SLP_DUR, SLP_EFF, SLP_AWK, SLP_WASO, SLP_QUAL, MH_SCORE, CA, ICP, RAD]
+stale_after:
+  SLP_DUR: 129600
+  SLP_EFF: 129600
+  SLP_AWK: 129600
+  SLP_WASO: 129600
+  SLP_QUAL: 129600
+  MH_SCORE: 129600
+  CA: 172800
+  ICP: 86400
+  RAD: 86400

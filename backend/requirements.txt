@@ -1,0 +1,8 @@
+fastapi>=0.115
+uvicorn[standard]>=0.34
+pydantic>=2
+aiosqlite>=0.21
+pyyaml>=6
+cryptography>=44
+httpx>=0.28
+pytest>=8

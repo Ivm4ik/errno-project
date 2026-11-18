@@ -1,0 +1,5 @@
+# Overridden by SIGNAL_DELAY_SEC in the environment. 0 = no Earth delay.
+SIGNAL_DELAY_SEC: 0
+PACKET_HISTORY_SEC: 21600
+# PUT /limits is applied on the ship immediately. Actions wait for this delay.
+limits_immediate: true

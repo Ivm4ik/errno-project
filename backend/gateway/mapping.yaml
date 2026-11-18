@@ -1,0 +1,4 @@
+hr: {sensor_id: hr, unit: bpm}
+spo2: {sensor_id: spo2, unit: "%"}
+temp: {sensor_id: temp, unit: C}
+resp: {sensor_id: resp, unit: breaths/min}

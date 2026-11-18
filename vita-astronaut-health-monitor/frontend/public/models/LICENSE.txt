@@ -1,0 +1,4 @@
+Body & organs from Grab3D light packs (CC0) unless noted.
+body-male.glb / body-female.glb — human muscles (female symlink until separate asset).
+organs/brain.glb heart.glb lungs.glb nerves.glb blood.glb skin.glb — anatomy study models.
+Legacy body.glb / body-alt.glb — Mixamo Xbot / CesiumMan (unused by new viewer).

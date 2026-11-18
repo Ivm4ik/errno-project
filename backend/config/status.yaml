@@ -1,0 +1,13 @@
+# Unified 3-tier matrix (physical + sleep/mental Total_Penalty).
+# GREEN: S < 25 · YELLOW: 25 ≤ S < 60 · RED: S ≥ 60 OR any Pi ≥ 35
+T_WARN: 25
+T_CRIT: 60
+T_SINGLE: 35
+EVAL_INTERVAL: 5
+N_RESET: 3
+N_CLEAR: 6
+labels:
+  0: NO_DOCTOR_NEEDED
+  1: ALLOW_FINISH_MISSION
+  2: CALL_DOCTOR_NOW
+critical_text: "КРИТИЧНИЙ СТАН! Негайно припини роботу та очікуй допомоги екіпажу"

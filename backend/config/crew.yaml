@@ -1,0 +1,5 @@
+# A1 uses Baseline_Astro1. A2 uses Baseline_Astro2.
+# Officer login is crew member A2 (regular astronaut). Break-glass unlocks others only in status 2.
+astronauts:
+  - {id: A1, name: Олена Кравець, role: Командир, baseline: Astro1}
+  - {id: A2, name: Тарас Бондар, role: Космонавт, baseline: Astro2}

@@ -1,0 +1,5 @@
+bleak
+pyserial
+pyserial-asyncio
+brainflow
+paho-mqtt
